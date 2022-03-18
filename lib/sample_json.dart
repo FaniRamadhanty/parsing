@@ -62,6 +62,12 @@ class Github {
     required this.username,
     required this.repository,
   });
+
+  get id => null;
+
+  get title => null;
+
+  get subtitle => null;
   @override
   String toString() {
     return 'Github{username: $username, repository: $repository}';

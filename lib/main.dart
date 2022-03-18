@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:parsing/sample_json.dart';
 import 'package:flutter/services.dart';
+import 'package:parsing/profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +14,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: MyHomePage(),
+    return MaterialApp(
+      home: ProfilePage(),
     );
   }
 }
@@ -83,3 +84,4 @@ class _MyHomePageStage extends State<MyHomePage> {
     );
   }
 }
+  
